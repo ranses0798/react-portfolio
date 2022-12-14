@@ -1,5 +1,6 @@
 import React from "react";
-import './Profile.css';
+import "./Profile.css";
+import Icons from "../../../Commons/Icons/Icons";
 
 export default function Profile() {
   return (
@@ -8,15 +9,7 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icons">
-            <a href="https://github.com/ranses0798">
-              <i className="fa fa-github"></i>
-            </a>
-            <a href="https://www.instagram.com/ramsesr07/">
-              <i className="fa fa-instagram"></i>
-            </a>
-            <a href="https://twitter.com/ARanses07">
-              <i className="fa fa-twitter"></i>
-            </a>
+              <Icons />
             </div>
           </div>
           <div className="profile-details-name">
@@ -28,9 +21,7 @@ export default function Profile() {
           <div className="profile-details-role">
             <span className="primary-text">
               {" "}
-              <h1>
-                Software Development Student 👨🏻‍🎓
-              </h1>
+              <h1>Software Development Student 👨🏻‍🎓</h1>
               <span>Student from Panama Technological University.</span>
             </span>
           </div>
@@ -39,13 +30,13 @@ export default function Profile() {
               {""}
               Hire Me{" "}
             </button>
-            <a href='resume.pdf' download='Ramses-Ramos-Resume.pdf'>
-             <button className="btn highlighted-btn">Get Resume</button>
+            <a href="resume.pdf" download="Ramses-Ramos-Resume.pdf">
+              <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>
         </div>
         <div className="profile-picture">
-            <div className="profile-picture-background"></div>
+          <div className="profile-picture-background"></div>
         </div>
       </div>
     </div>
